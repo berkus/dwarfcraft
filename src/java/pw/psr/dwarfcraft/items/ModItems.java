@@ -6,7 +6,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public final class ModItems {
 	public static Item tutorialItem;
 	
-	public static void createItems() {
+	public static void init() {
 		GameRegistry.registerItem(tutorialItem = new BasicItem("tutorial_item"), "tutorial_item");
 	}
 }
